@@ -9,8 +9,7 @@
 		<title>Enterprise Architecture</title>
 				
 	</head>
-
-	<style>
+<style>
 
 .navbar {
 
@@ -22,7 +21,7 @@ overflow: hidden;
 
 background-color:
 
-.navbar a {
+.navbar button {
 
 float: left;
 
@@ -34,19 +33,27 @@ text-align: center;
 
 padding: 14px 16px;
 
+background-color:
+
+#4CAF50; /*
+
+Green */
+
+border: none;
+
+cursor: pointer;
+
 text-decoration:
 
-none;
+none:
 
 }
 
-.navbar a:hover {
+navbar button:hover {
 
 background-color:
 
-#ddd;
-
-}
+#ddd:
 
 color: black;
 
@@ -58,13 +65,29 @@ color: black;
 
 <div class="navbar">
 
-<a href="#home">Home</a>
+<button
 
-<a href="#news">News</a>
+onclick="location.href="#home'">
 
-<a href="#contact">Contact</a>
+Home</button>
 
-<a href="#about">About</a>
+onclick="location.href='#news">
+
+<button
+
+News</button>
+
+onclick="location.href='#contact
+
+<button
+
+">Contact</button>
+
+<button
+
+onclick="location.href='#about'"
+
+>About</button>
 
 </div>
 		<body background ="th.jpg">
